@@ -57,11 +57,33 @@ Forecasting demand helps retail businesses optimize **inventory management, pric
 - Forecast for the **next 30 days** generated and saved as `forecast_next_30_days.csv`  
 
 ---
-
 ## ▶️ How to Run  
 
-Clone the repository:  
+1. Clone the repository:  
 ```bash
 git clone https://github.com/your-username/demand-forecasting-retail.git
 cd demand-forecasting-retail
+```
 
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Run the notebook or script:
+```bash
+jupyter notebook Demand_Forecasting.ipynb
+```
+or
+
+```bash
+python demand_forecasting.py
+```
+
+---
+
+## 📌 Future Improvements
+-Try advanced models (Prophet, LSTM, XGBoost).
+-Include holiday effects & promotions for better accuracy.
+-Deploy as a Streamlit/Flask web app for real-time demand prediction.
+
+✍️ Developed by **Durga Damai** as part of **CodeClause Internship**.
